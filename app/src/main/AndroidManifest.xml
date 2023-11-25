@@ -13,16 +13,16 @@
         android:theme="@style/Theme.SmartStudyRoom"
         tools:targetApi="31">
         <activity
-            android:name=".Sign_up"
+            android:name="com.example.smartstudyroom.Sign_up"
             android:exported="false" />
         <activity
-            android:name=".API_Access"
+            android:name="com.example.smartstudyroom.API_Access"
             android:exported="false" />
         <activity
-            android:name=".NFC_Tag"
+            android:name="com.example.smartstudyroom.NFC_Tag"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name="com.example.smartstudyroom.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
